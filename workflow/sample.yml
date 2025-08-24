@@ -1,0 +1,14 @@
+# Sample workflow file
+name: Sample Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello
+        run: echo "Hello, Workflow!"
